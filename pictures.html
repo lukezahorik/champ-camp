@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<style>
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 80%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<title>Champ Camp</title>
+</head>
+
+<body style="background-color: #f6d327;
+background-image: url('images/champ-camp-cropped-blur2transparent.png'); background-size: 100%;">
+    <!-- navbar -->
+    <table style="align:center; width:100%; padding:20px;">
+    <tr>
+        <th style="width:25%;"><a href="howdy.html"><img src="images/howdy.png"></a></th>
+        <th style="width:25%;"><a href="sign-up.html"><img src="images/sign-up.png"></a></th>
+        <th style="width:25%;"><a href="pictures.html"><img src="images/pictures.png"></a></th>
+    </tr>
+    </table>
+    <!-- <img src="images/champ-camp-cropped-blur2transparent.png" style="width:100%"> -->
+    <table style="align:center; margin-left:auto; margin-right:auto; width:60%; background-color:rgba(255, 255, 255, 0.6); padding:10px;">
+    <tr>
+    <th>
+    <div class="row">
+        <div class="column">
+            <img src="images/goldPanning5.jpg">
+            <img src="images/GoodTradePost5.jpg">
+            <img src="images/CC19Church.jpg">
+            <img src="images/CC19EliKayak.jpg">
+            <img src="images/CC19NayaKezia.jpg">
+        </div>
+        <div class="column">
+            <img src="images/Buddies.JPG">
+            <img src="images/DBrooksKnife.JPG">
+            <img src="images/DSC_3865.JPG">
+            <img src="images/DSC_3870.JPG">
+            <img src="images/CC19Walkstick3.jpg">
+        </div>
+    </div>
+    </th>
+    </tr>
+    </table>
+</body>
+
+</html>
